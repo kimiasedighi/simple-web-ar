@@ -1,8 +1,10 @@
-// var return_btn = document.getElementById("returnImg");
-// return_btn.addEventListener("click", () => {
-//   console.log("here");
-//   //window.location.replace("http://localhost:3000/");
-// });
+var return_btn = document.querySelector("#return-img");
+if (return_btn) {
+  return_btn.addEventListener("click", () => {
+    console.log("here");
+    //window.location.replace("http://localhost:3000/");
+  });
+}
 
 var play_btn1 = document.querySelector("#play-btn1");
 var info_btn1 = document.querySelector("#info-btn1");
